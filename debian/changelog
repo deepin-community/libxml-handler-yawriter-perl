@@ -1,0 +1,139 @@
+libxml-handler-yawriter-perl (0.23-7) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Ansgar Burchardt ]
+  * Update my email address.
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * debian/copyright: Replace DEP5 Format-Specification URL from
+    svn.debian.org to anonscm.debian.org URL.
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * Remove Jay Bonci from Uploaders. Thanks for your work!
+  * Add Testsuite declaration for autopkgtest-pkg-perl.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Niko Tyni ]
+  * Update to debhelper compat level 10
+  * Update to Standards-Version 4.1.4
+  * Declare that the package does not need (fake)root to build
+  * Tune autopkgtest configuration to improve test coverage
+  * Patch YAWriter.pm to properly declare POD encoding
+
+ -- Niko Tyni <ntyni@debian.org>  Sun, 06 May 2018 11:31:25 +0300
+
+libxml-handler-yawriter-perl (0.23-6) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza).
+  * Set Maintainer to Debian Perl Group.
+  * Use dist-based URL in debian/watch.
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Ansgar Burchardt ]
+  * Refresh rules for debhelper 7.
+  * Use source format 3.0 (quilt).
+  * Convert debian/copyright to proposed machine-readable format.
+  * debian/watch: Use extended regular expression to match upstream releases.
+  * debian/control: Mention module name in description.
+  * Correct spelling error.
+    + new patch: spelling.patch
+  * Bump Standards-Version to 3.8.4.
+  * Add myself to Uploaders.
+
+ -- Ansgar Burchardt <ansgar@43-1.org>  Fri, 19 Feb 2010 01:40:40 +0900
+
+libxml-handler-yawriter-perl (0.23-5) unstable; urgency=low
+
+  * Adds debian/watch file so uscan will work
+
+ -- Jay Bonci <jaybonci@debian.org>  Wed, 27 Oct 2004 11:38:17 -0400
+
+libxml-handler-yawriter-perl (0.23-4) unstable; urgency=low
+
+  * New Maintainer (Closes: #210532)
+  * Removed .docs file as it only installed README - a copy of the POD documentation
+  * Removed .install file as it is no longer needed 
+  * Moved over to my standard rules template
+  * Changed typo in license about license file path
+
+ -- Jay Bonci <jaybonci@debian.org>  Thu,  4 Mar 2004 01:40:03 -0500
+
+libxml-handler-yawriter-perl (0.23-3) unstable; urgency=low
+
+  * debian/rules: moved debhelper compatibility level setting to
+    'debian/compat' per latest debhelper best practices
+  * debian/control: updated sections according to latest archive changes:
+    - 'libxml-handler-yawriter-perl' from 'interpreters' to 'perl'
+  * debian/control: upgraded build dependency on 'debhelper' to '>= 4.1'
+  * debian/control: upgraded to Debian Policy 3.6.0 (no changes)
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Sat,  6 Sep 2003 10:27:22 -0500
+
+libxml-handler-yawriter-perl (0.23-2) unstable; urgency=low
+
+  * debian/rules: upgraded to debhelper v4
+  * debian/control: changed build dependency on debhelper accordingly
+  * debian/rules: migrated from 'dh_movefiles' to 'dh_install'
+  * debian/rules: split off 'install' target from 'binary-indep' target
+  * debian/copyright: added pointer to license
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Thu,  8 Aug 2002 20:03:01 -0500
+
+libxml-handler-yawriter-perl (0.23-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Sat, 27 Apr 2002 13:14:16 -0500
+
+libxml-handler-yawriter-perl (0.22-2) unstable; urgency=low
+
+  * debian/control: upgraded to Debian Policy 3.5.6
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Sun, 23 Dec 2001 19:39:10 -0600
+
+libxml-handler-yawriter-perl (0.22-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: upgraded to Debian Policy 3.5.5
+  * debian/control: upgraded to Debian Perl Policy 1.20
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Sun,  2 Sep 2001 13:16:11 -0500
+
+libxml-handler-yawriter-perl (0.20-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: updated debhelper dependency to remove dh_testversion
+  * debian/control: upgraded to Debian Policy 3.5.2
+  * debian/control: upgraded to Debian Perl Policy 1.17
+  * debian/rules: upgraded to Debian Perl Policy 1.17
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Sun, 15 Apr 2001 17:43:33 -0500
+
+libxml-handler-yawriter-perl (0.17-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: upgraded to Debian Policy 3.2.1
+  * debian/rules: upgraded to debhelper v3
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Wed, 17 Jan 2001 14:56:45 -0600
+
+libxml-handler-yawriter-perl (0.16-1) unstable; urgency=low
+
+  * Initial Release
+
+ -- Ardo van Rangelrooij <ardo@debian.org>  Wed,  4 Oct 2000 08:31:25 -0500

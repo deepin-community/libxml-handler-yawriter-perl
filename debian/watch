@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/XML-Handler-YAWriter .*/XML-Handler-YAWriter-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

@@ -1,0 +1,24 @@
+Source: libxml-handler-yawriter-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Ansgar Burchardt <ansgar@debian.org>
+Section: perl
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl,
+                     libxml-perl
+Standards-Version: 4.1.4
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libxml-handler-yawriter-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libxml-handler-yawriter-perl.git
+Homepage: https://metacpan.org/release/XML-Handler-YAWriter
+
+Package: libxml-handler-yawriter-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends},
+         libxml-perl
+Description: Perl module for writing XML documents
+ The XML::Handler::YAWriter implements Yet Another XML::Handler::Writer.  The
+ reasons for this one are needing a flexible escaping technique, and wanting
+ some kind of pretty printing.

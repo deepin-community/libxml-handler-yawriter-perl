@@ -1,0 +1,18 @@
+From: Ansgar Burchardt <ansgar@43-1.org>
+Date: Fri, 19 Feb 2010 01:38:21 +0900
+Forwarded: https://rt.cpan.org/Ticket/Display.html?id=54765
+Subject: Correct spelling errors
+
+This patch corrects a spelling error found by lintian.
+
+--- libxml-handler-yawriter-perl.orig/xmlpretty
++++ libxml-handler-yawriter-perl/xmlpretty
+@@ -146,7 +146,7 @@
+ =head1 Thanks
+ 
+ "Derksen, Eduard (Enno), CSCIO" <enno@att.com> helped me with the Escape
+-hash and gave quite a lot of usefull comments.
++hash and gave quite a lot of useful comments.
+ 
+ =head1 SEE ALSO
+ 
